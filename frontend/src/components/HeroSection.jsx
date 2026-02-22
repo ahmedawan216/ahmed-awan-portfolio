@@ -136,20 +136,21 @@ const HeroSection = () => {
               onClick={() => scrollToSection('contact')}
               size="lg"
               variant="outline"
-              className="border-white/20 text-white hover:bg-white/5 font-semibold px-8 py-6 text-lg transition-all duration-300"
+              className="border-white/20 text-white hover:bg-white/5 hover:text-white font-semibold px-8 py-6 text-lg transition-all duration-300"
             >
               Contact Me
             </Button>
             
-            <Button 
-              size="lg"
-              variant="outline"
-              className="border-white/20 text-white hover:bg-white/5 font-semibold px-8 py-6 text-lg transition-all duration-300"
-              onClick={() => window.open('#', '_blank')}
-            >
-              <Download className="mr-2 w-5 h-5" />
-              Download Resume
-            </Button>
+            <a href="/Ahmed Awan Resume.pdf" download="Ahmed Awan Resume.pdf">
+              <Button 
+                size="lg"
+                variant="outline"
+                className="border-white/20 text-white hover:bg-white/5 hover:text-white font-semibold px-8 py-6 text-lg transition-all duration-300"
+                >
+                <Download className="mr-2 w-5 h-5" />
+                Download Resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6 pt-12">
@@ -169,12 +170,14 @@ const HeroSection = () => {
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a 
-              href="mailto:ahmediqbalawan124@gmail.com"
-              className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300"
-            >
-              <Mail className="w-6 h-6" />
-            </a>
+          <a 
+            href="mailto:ahmediqbalawan124@gmail.com"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-[#0ea5e9] transition-colors duration-300"
+          >
+            <Mail className="w-6 h-6" />
+          </a>
           </div>
 
           <div className="pt-16">

@@ -5,7 +5,7 @@ import { Card } from './ui/card';
 const ExperienceSection = () => {
   const experiences = [
     {
-      period: '2023 - Present',
+      period: '2025 - Present',
       title: 'Project-Based Frontend Development',
       organization: 'Independent Projects',
       achievements: [
@@ -17,7 +17,19 @@ const ExperienceSection = () => {
       ]
     },
     {
-      period: '2022 - 2023',
+      period: '2023 - Present',
+      title: 'UX/UI Designer',
+      organization: 'Freelance & Conceptual Design',
+      achievements: [
+        'Designed high-fidelity wireframes and interactive prototypes for web and mobile applications in Figma',
+        'Applied design systems and style guides to maintain visual consistency across diverse digital products',
+        'Conducted user research and accessibility audits to ensure inclusive and user-centric navigation',
+        'Bridged the gap between design and development by delivering developer-friendly assets and documentation',
+        'Iterated on UI designs based on user feedback loops and modern design trends'
+      ]
+    },
+    {
+      period: '2024 - 2025',
       title: 'Web Development Learning & Practice',
       organization: 'Self-Directed Learning',
       achievements: [
@@ -39,7 +51,7 @@ const ExperienceSection = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#0ea5e9] to-[#06b6d4] mx-auto mb-6"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            My path to becoming a frontend developer through hands-on projects and continuous learning
+            My path to becoming a Frontend Developer & UI/UX Designer, fueled by a passion for creative design, hands-on architecture, and a commitment to continuous learning.
           </p>
         </div>
 

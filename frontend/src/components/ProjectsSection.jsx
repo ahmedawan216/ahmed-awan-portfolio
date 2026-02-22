@@ -3,6 +3,10 @@ import { ExternalLink, Github, Code2 } from 'lucide-react';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
+import snakeImage from "../assets/snake-game.png";
+import imageEditor from "../assets/image-editor.png";
+import movieApp from "../assets/movieApp.png";
+import kanbanBoard from "../assets/kanbanBoard.png";
 
 const ProjectsSection = () => {
   const projects = [
@@ -11,9 +15,18 @@ const ProjectsSection = () => {
       description: 'Logic-driven game built in Vanilla JavaScript demonstrating game loops, coordinate systems, and performance optimization with smooth gameplay mechanics.',
       tech: ['JavaScript', 'HTML5', 'CSS3', 'Canvas API'],
       liveUrl: 'https://ahmedawan216.github.io/snake-game-JavaScript/',
-      githubUrl: '#',
-      image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=500&fit=crop',
+      githubUrl: 'https://github.com/ahmedawan216/snake-game-JavaScript',
+      image: snakeImage,
       featured: true
+    },
+    {
+      title: 'Rango | Premium Movie Discovery App',
+      description: 'A sophisticated frontend application that leverages the TMDB API to deliver real-time cinema data and trending titles. Features a fully responsive custom-built UI, dynamic search filtering, and a persistent "Favorites" system powered by local storage for a seamless user experience.',
+      tech: ['JavaScript (ES6+)', 'REST API', 'CSS3 Grid/Flex'],
+      liveUrl: 'https://ahmedawan216.github.io/movieApp-JavaScript/',
+      githubUrl: 'https://github.com/ahmedawan216/movieApp-JavaScript',
+      image: movieApp,
+      featured: true,
     },
     {
       title: 'React Image Editor',
@@ -21,28 +34,17 @@ const ProjectsSection = () => {
       tech: ['React', 'Vite', 'Tailwind CSS', 'Canvas API'],
       liveUrl: '#',
       githubUrl: '#',
-      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=500&fit=crop',
+      image: imageEditor,
       featured: true
     },
     {
-      title: 'Project Coming Soon',
-      description: 'Working on an exciting new project that showcases advanced React patterns and modern frontend architecture.',
-      tech: ['React', 'TypeScript', 'Next.js'],
-      liveUrl: null,
-      githubUrl: null,
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=500&fit=crop',
-      featured: false,
-      comingSoon: true
-    },
-    {
-      title: 'Project Coming Soon',
-      description: 'Another innovative web application in development, focusing on user experience and performance optimization.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      liveUrl: null,
-      githubUrl: null,
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=500&fit=crop',
-      featured: false,
-      comingSoon: true
+      title: 'Kanban Flow | Dynamic Task Management Interface',
+      description: 'Interactive Architecture: Engineered a high-performance task management system using Vanilla JavaScript and the native HTML5 Drag-and-Drop API.',
+      tech: ['JavaScript', 'HTML5', 'CSS3', 'Local-Storage', 'DOM MANIPULATION'],
+      liveUrl: 'https://ahmedawan216.github.io/kanban-task-manager/',
+      githubUrl: 'https://github.com/ahmedawan216/kanban-task-manager',
+      image: kanbanBoard,
+      featured: true,
     }
   ];
 

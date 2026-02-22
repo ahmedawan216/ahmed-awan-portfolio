@@ -60,7 +60,7 @@ const AboutSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center justify-between py-3 border-b border-white/5">
                   <span className="text-gray-400 text-sm">Experience</span>
-                  <span className="text-white font-semibold">2+ Years</span>
+                  <span className="text-white font-semibold">1+ Years</span>
                 </div>
                 <div className="flex items-center justify-between py-3 border-b border-white/5">
                   <span className="text-gray-400 text-sm">Projects Completed</span>

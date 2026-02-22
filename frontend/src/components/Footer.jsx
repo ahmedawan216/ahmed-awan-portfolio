@@ -16,10 +16,10 @@ const Footer = () => {
       label: 'LinkedIn'
     },
     {
-      icon: Mail,
-      url: 'mailto:ahmediqbalawan124@gmail.com',
-      label: 'Email'
-    }
+  icon: Mail,
+  url: 'https://mail.google.com/mail/?view=cm&fs=1&to=ahmediqbalawan124@gmail.com',
+  label: 'Email'
+}
   ];
 
   const scrollToTop = () => {
