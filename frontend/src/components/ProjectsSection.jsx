@@ -4,7 +4,7 @@ import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import snakeImage from "../assets/snake-game.png";
-import imageEditor from "../assets/image-editor.png";
+import newImageEditor from "../assets/new-image-editor.png";
 import movieApp from "../assets/movieApp.png";
 import kanbanBoard from "../assets/kanbanBoard.png";
 
@@ -32,9 +32,9 @@ const ProjectsSection = () => {
       title: 'React Image Editor',
       description: 'Real-time image editing tool with filter adjustments, Canvas API integration, and responsive controls for professional image manipulation.',
       tech: ['React', 'Vite', 'Tailwind CSS', 'Canvas API'],
-      liveUrl: '#',
-      githubUrl: '#',
-      image: imageEditor,
+      liveUrl: 'https://ahmedawan216.github.io/LuminaEdit/',
+      githubUrl: 'https://github.com/ahmedawan216/LuminaEdit',
+      image: newImageEditor,
       featured: true
     },
     {
