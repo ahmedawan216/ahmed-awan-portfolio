@@ -75,11 +75,12 @@ const HeroSection = () => {
   }, []);
 
   const techStack = [
-    'React',
-    'JavaScript',
-    'Tailwind CSS',
-    'Git',
-    'Figma'
+  'React',
+  'JavaScript',
+  'TypeScript', 
+  'Tailwind CSS',
+  'Git',
+  'Figma'     
   ];
 
   const scrollToSection = (sectionId) => {
@@ -141,7 +142,8 @@ const HeroSection = () => {
               Contact Me
             </Button>
             
-            <a href="/Ahmed Awan Resume.pdf" download="Ahmed Awan Resume.pdf">
+            <a
+             href="/Ahmed Awan Resume-Front-end-engineer (New).pdf" download="Ahmed Awan Resume.pdf">
               <Button 
                 size="lg"
                 variant="outline"
